@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Multa" table="multa" catalog="bd_bec" optimistic-lock="version">
+        <id name="idMulta" type="java.lang.Integer">
+            <column name="idMulta" />
+            <generator class="identity" />
+        </id>
+        <property name="estado" type="string">
+            <column name="estado" length="50" not-null="true" />
+        </property>
+        <property name="tiempo" type="int">
+            <column name="tiempo" not-null="true" />
+        </property>
+        <property name="total" type="int">
+            <column name="total" not-null="true" />
+        </property>
+        <set name="prestamos" table="prestamo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idMulta" not-null="true" />
+            </key>
+            <one-to-many class="cl.biblioteca.edm.Prestamo" />
+        </set>
+    </class>
+</hibernate-mapping>

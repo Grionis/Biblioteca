@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Actualizar" targetNamespace="http://ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/bec_biblioteca/Actualizar?xsd=1" namespace="http://ws/" />
+    </xsd:schema>
+  </types>
+  <message name="ActualizarFicha">
+    <part name="parameters" element="tns:ActualizarFicha" />
+  </message>
+  <message name="ActualizarFichaResponse">
+    <part name="parameters" element="tns:ActualizarFichaResponse" />
+  </message>
+  <message name="ActualizarStock">
+    <part name="parameters" element="tns:ActualizarStock" />
+  </message>
+  <message name="ActualizarStockResponse">
+    <part name="parameters" element="tns:ActualizarStockResponse" />
+  </message>
+  <message name="actualizarRol">
+    <part name="parameters" element="tns:actualizarRol" />
+  </message>
+  <message name="actualizarRolResponse">
+    <part name="parameters" element="tns:actualizarRolResponse" />
+  </message>
+  <message name="actualizarPrestamoMultimediaSinMora">
+    <part name="parameters" element="tns:actualizarPrestamoMultimediaSinMora" />
+  </message>
+  <message name="actualizarPrestamoMultimediaSinMoraResponse">
+    <part name="parameters" element="tns:actualizarPrestamoMultimediaSinMoraResponse" />
+  </message>
+  <message name="actualizarPrestamoLibroSinMora">
+    <part name="parameters" element="tns:actualizarPrestamoLibroSinMora" />
+  </message>
+  <message name="actualizarPrestamoLibroSinMoraResponse">
+    <part name="parameters" element="tns:actualizarPrestamoLibroSinMoraResponse" />
+  </message>
+  <message name="actualizarPrestamoLibro">
+    <part name="parameters" element="tns:actualizarPrestamoLibro" />
+  </message>
+  <message name="actualizarPrestamoLibroResponse">
+    <part name="parameters" element="tns:actualizarPrestamoLibroResponse" />
+  </message>
+  <message name="actualizarPrestamoMultimedia">
+    <part name="parameters" element="tns:actualizarPrestamoMultimedia" />
+  </message>
+  <message name="actualizarPrestamoMultimediaResponse">
+    <part name="parameters" element="tns:actualizarPrestamoMultimediaResponse" />
+  </message>
+  <message name="actualizarUsuario">
+    <part name="parameters" element="tns:actualizarUsuario" />
+  </message>
+  <message name="actualizarUsuarioResponse">
+    <part name="parameters" element="tns:actualizarUsuarioResponse" />
+  </message>
+  <portType name="Actualizar">
+    <operation name="ActualizarFicha">
+      <input wsam:Action="http://ws/Actualizar/ActualizarFichaRequest" message="tns:ActualizarFicha" />
+      <output wsam:Action="http://ws/Actualizar/ActualizarFichaResponse" message="tns:ActualizarFichaResponse" />
+    </operation>
+    <operation name="ActualizarStock">
+      <input wsam:Action="http://ws/Actualizar/ActualizarStockRequest" message="tns:ActualizarStock" />
+      <output wsam:Action="http://ws/Actualizar/ActualizarStockResponse" message="tns:ActualizarStockResponse" />
+    </operation>
+    <operation name="actualizarRol">
+      <input wsam:Action="http://ws/Actualizar/actualizarRolRequest" message="tns:actualizarRol" />
+      <output wsam:Action="http://ws/Actualizar/actualizarRolResponse" message="tns:actualizarRolResponse" />
+    </operation>
+    <operation name="actualizarPrestamoMultimediaSinMora">
+      <input wsam:Action="http://ws/Actualizar/actualizarPrestamoMultimediaSinMoraRequest" message="tns:actualizarPrestamoMultimediaSinMora" />
+      <output wsam:Action="http://ws/Actualizar/actualizarPrestamoMultimediaSinMoraResponse" message="tns:actualizarPrestamoMultimediaSinMoraResponse" />
+    </operation>
+    <operation name="actualizarPrestamoLibroSinMora">
+      <input wsam:Action="http://ws/Actualizar/actualizarPrestamoLibroSinMoraRequest" message="tns:actualizarPrestamoLibroSinMora" />
+      <output wsam:Action="http://ws/Actualizar/actualizarPrestamoLibroSinMoraResponse" message="tns:actualizarPrestamoLibroSinMoraResponse" />
+    </operation>
+    <operation name="actualizarPrestamoLibro">
+      <input wsam:Action="http://ws/Actualizar/actualizarPrestamoLibroRequest" message="tns:actualizarPrestamoLibro" />
+      <output wsam:Action="http://ws/Actualizar/actualizarPrestamoLibroResponse" message="tns:actualizarPrestamoLibroResponse" />
+    </operation>
+    <operation name="actualizarPrestamoMultimedia">
+      <input wsam:Action="http://ws/Actualizar/actualizarPrestamoMultimediaRequest" message="tns:actualizarPrestamoMultimedia" />
+      <output wsam:Action="http://ws/Actualizar/actualizarPrestamoMultimediaResponse" message="tns:actualizarPrestamoMultimediaResponse" />
+    </operation>
+    <operation name="actualizarUsuario">
+      <input wsam:Action="http://ws/Actualizar/actualizarUsuarioRequest" message="tns:actualizarUsuario" />
+      <output wsam:Action="http://ws/Actualizar/actualizarUsuarioResponse" message="tns:actualizarUsuarioResponse" />
+    </operation>
+  </portType>
+  <binding name="ActualizarPortBinding" type="tns:Actualizar">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ActualizarFicha">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ActualizarStock">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarRol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarPrestamoMultimediaSinMora">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarPrestamoLibroSinMora">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarPrestamoLibro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarPrestamoMultimedia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Actualizar">
+    <port name="ActualizarPort" binding="tns:ActualizarPortBinding">
+      <soap:address location="http://localhost:8080/bec_biblioteca/Actualizar" />
+    </port>
+  </service>
+</definitions>

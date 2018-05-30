@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="bd_bec" name="cl.biblioteca.edm.Prestamo" optimistic-lock="version" table="prestamo">
+    <id name="idPrestamo" type="java.lang.Integer">
+      <column name="idPrestamo"/>
+      <generator class="identity"/>
+    </id>
+    <property name="idUsuario" type="java.lang.Integer">
+      <column name="idUsuario" not-null="true"/>
+    </property>
+     <property name="idMulta" type="java.lang.Integer">
+      <column  name="idMulta" not-null="true"/>
+    </property>   
+    <property name="idMultimedia" type="java.lang.Integer">
+      <column name="idMultimedia" not-null="true"/>
+    </property>   
+    <property name="idLibro" type="java.lang.Integer">
+      <column name="idLibro" not-null="true"/>
+    </property>
+    <property name="tipo" type="string">
+      <column length="50" name="tipo" not-null="true"/>
+    </property>
+    <property name="estado" type="string">
+      <column length="50" name="estado" not-null="true"/>
+    </property>
+    <property name="fechaPrestamo" type="string">
+      <column length="50" name="fechaPrestamo" not-null="true"/>
+    </property>
+    <property name="fechaDevolucion" type="string">
+      <column length="50" name="fechaDevolucion" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

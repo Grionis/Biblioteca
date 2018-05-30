@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEC", "BEC\BEC.csproj", "{DB875AFB-F3A6-478F-B79F-E354E48F3E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFC_Service_Bec", "WFC_Service_Bec\WFC_Service_Bec.csproj", "{A1EA4134-6E2A-4552-B413-61CD3FBD10EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEC_EMAIL", "BEC_EMAIL\BEC_EMAIL.csproj", "{2BBE046E-B736-489B-800B-0B04AD3A6B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB875AFB-F3A6-478F-B79F-E354E48F3E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB875AFB-F3A6-478F-B79F-E354E48F3E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB875AFB-F3A6-478F-B79F-E354E48F3E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB875AFB-F3A6-478F-B79F-E354E48F3E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EA4134-6E2A-4552-B413-61CD3FBD10EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EA4134-6E2A-4552-B413-61CD3FBD10EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EA4134-6E2A-4552-B413-61CD3FBD10EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EA4134-6E2A-4552-B413-61CD3FBD10EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBE046E-B736-489B-800B-0B04AD3A6B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBE046E-B736-489B-800B-0B04AD3A6B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBE046E-B736-489B-800B-0B04AD3A6B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBE046E-B736-489B-800B-0B04AD3A6B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Listar" targetNamespace="http://ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/bec_biblioteca/Listar?xsd=1" namespace="http://ws/" />
+    </xsd:schema>
+  </types>
+  <message name="PrestamoMayor">
+    <part name="parameters" element="tns:PrestamoMayor" />
+  </message>
+  <message name="PrestamoMayorResponse">
+    <part name="parameters" element="tns:PrestamoMayorResponse" />
+  </message>
+  <message name="listarStockPorId">
+    <part name="parameters" element="tns:listarStockPorId" />
+  </message>
+  <message name="listarStockPorIdResponse">
+    <part name="parameters" element="tns:listarStockPorIdResponse" />
+  </message>
+  <message name="listarLibroPorId">
+    <part name="parameters" element="tns:listarLibroPorId" />
+  </message>
+  <message name="listarLibroPorIdResponse">
+    <part name="parameters" element="tns:listarLibroPorIdResponse" />
+  </message>
+  <message name="listarMultimedia">
+    <part name="parameters" element="tns:listarMultimedia" />
+  </message>
+  <message name="listarMultimediaResponse">
+    <part name="parameters" element="tns:listarMultimediaResponse" />
+  </message>
+  <message name="Prestados">
+    <part name="parameters" element="tns:Prestados" />
+  </message>
+  <message name="PrestadosResponse">
+    <part name="parameters" element="tns:PrestadosResponse" />
+  </message>
+  <message name="ListarStock">
+    <part name="parameters" element="tns:ListarStock" />
+  </message>
+  <message name="ListarStockResponse">
+    <part name="parameters" element="tns:ListarStockResponse" />
+  </message>
+  <message name="StockMayor">
+    <part name="parameters" element="tns:StockMayor" />
+  </message>
+  <message name="StockMayorResponse">
+    <part name="parameters" element="tns:StockMayorResponse" />
+  </message>
+  <message name="ListarPrestamo">
+    <part name="parameters" element="tns:ListarPrestamo" />
+  </message>
+  <message name="ListarPrestamoResponse">
+    <part name="parameters" element="tns:ListarPrestamoResponse" />
+  </message>
+  <message name="listarEstante">
+    <part name="parameters" element="tns:listarEstante" />
+  </message>
+  <message name="listarEstanteResponse">
+    <part name="parameters" element="tns:listarEstanteResponse" />
+  </message>
+  <message name="listarLibro">
+    <part name="parameters" element="tns:listarLibro" />
+  </message>
+  <message name="listarLibroResponse">
+    <part name="parameters" element="tns:listarLibroResponse" />
+  </message>
+  <message name="listarFicha">
+    <part name="parameters" element="tns:listarFicha" />
+  </message>
+  <message name="listarFichaResponse">
+    <part name="parameters" element="tns:listarFichaResponse" />
+  </message>
+  <message name="listarUsuario">
+    <part name="parameters" element="tns:listarUsuario" />
+  </message>
+  <message name="listarUsuarioResponse">
+    <part name="parameters" element="tns:listarUsuarioResponse" />
+  </message>
+  <message name="listarFichaPorId">
+    <part name="parameters" element="tns:listarFichaPorId" />
+  </message>
+  <message name="listarFichaPorIdResponse">
+    <part name="parameters" element="tns:listarFichaPorIdResponse" />
+  </message>
+  <message name="listarRol">
+    <part name="parameters" element="tns:listarRol" />
+  </message>
+  <message name="listarRolResponse">
+    <part name="parameters" element="tns:listarRolResponse" />
+  </message>
+  <message name="ListarLibroPorNombre">
+    <part name="parameters" element="tns:ListarLibroPorNombre" />
+  </message>
+  <message name="ListarLibroPorNombreResponse">
+    <part name="parameters" element="tns:ListarLibroPorNombreResponse" />
+  </message>
+  <message name="ListarPrestamoPorIdMultimedia">
+    <part name="parameters" element="tns:ListarPrestamoPorIdMultimedia" />
+  </message>
+  <message name="ListarPrestamoPorIdMultimediaResponse">
+    <part name="parameters" element="tns:ListarPrestamoPorIdMultimediaResponse" />
+  </message>
+  <message name="PrestamoPendiente">
+    <part name="parameters" element="tns:PrestamoPendiente" />
+  </message>
+  <message name="PrestamoPendienteResponse">
+    <part name="parameters" element="tns:PrestamoPendienteResponse" />
+  </message>
+  <message name="ListarPrestamoPorIdLibro">
+    <part name="parameters" element="tns:ListarPrestamoPorIdLibro" />
+  </message>
+  <message name="ListarPrestamoPorIdLibroResponse">
+    <part name="parameters" element="tns:ListarPrestamoPorIdLibroResponse" />
+  </message>
+  <message name="listarLibroByCodigo">
+    <part name="parameters" element="tns:listarLibroByCodigo" />
+  </message>
+  <message name="listarLibroByCodigoResponse">
+    <part name="parameters" element="tns:listarLibroByCodigoResponse" />
+  </message>
+  <message name="listarMultimediaByCodigo">
+    <part name="parameters" element="tns:listarMultimediaByCodigo" />
+  </message>
+  <message name="listarMultimediaByCodigoResponse">
+    <part name="parameters" element="tns:listarMultimediaByCodigoResponse" />
+  </message>
+  <message name="ListarMultimediaPorId">
+    <part name="parameters" element="tns:ListarMultimediaPorId" />
+  </message>
+  <message name="ListarMultimediaPorIdResponse">
+    <part name="parameters" element="tns:ListarMultimediaPorIdResponse" />
+  </message>
+  <message name="listarUsuarioPorNombre">
+    <part name="parameters" element="tns:listarUsuarioPorNombre" />
+  </message>
+  <message name="listarUsuarioPorNombreResponse">
+    <part name="parameters" element="tns:listarUsuarioPorNombreResponse" />
+  </message>
+  <message name="ListarMultimediaPorNombre">
+    <part name="parameters" element="tns:ListarMultimediaPorNombre" />
+  </message>
+  <message name="ListarMultimediaPorNombreResponse">
+    <part name="parameters" element="tns:ListarMultimediaPorNombreResponse" />
+  </message>
+  <message name="ListarPrestamoPorId">
+    <part name="parameters" element="tns:ListarPrestamoPorId" />
+  </message>
+  <message name="ListarPrestamoPorIdResponse">
+    <part name="parameters" element="tns:ListarPrestamoPorIdResponse" />
+  </message>
+  <message name="listarUsuarioPorId">
+    <part name="parameters" element="tns:listarUsuarioPorId" />
+  </message>
+  <message name="listarUsuarioPorIdResponse">
+    <part name="parameters" element="tns:listarUsuarioPorIdResponse" />
+  </message>
+  <portType name="Listar">
+    <operation name="PrestamoMayor">
+      <input wsam:Action="http://ws/Listar/PrestamoMayorRequest" message="tns:PrestamoMayor" />
+      <output wsam:Action="http://ws/Listar/PrestamoMayorResponse" message="tns:PrestamoMayorResponse" />
+    </operation>
+    <operation name="listarStockPorId">
+      <input wsam:Action="http://ws/Listar/listarStockPorIdRequest" message="tns:listarStockPorId" />
+      <output wsam:Action="http://ws/Listar/listarStockPorIdResponse" message="tns:listarStockPorIdResponse" />
+    </operation>
+    <operation name="listarLibroPorId">
+      <input wsam:Action="http://ws/Listar/listarLibroPorIdRequest" message="tns:listarLibroPorId" />
+      <output wsam:Action="http://ws/Listar/listarLibroPorIdResponse" message="tns:listarLibroPorIdResponse" />
+    </operation>
+    <operation name="listarMultimedia">
+      <input wsam:Action="http://ws/Listar/listarMultimediaRequest" message="tns:listarMultimedia" />
+      <output wsam:Action="http://ws/Listar/listarMultimediaResponse" message="tns:listarMultimediaResponse" />
+    </operation>
+    <operation name="Prestados">
+      <input wsam:Action="http://ws/Listar/PrestadosRequest" message="tns:Prestados" />
+      <output wsam:Action="http://ws/Listar/PrestadosResponse" message="tns:PrestadosResponse" />
+    </operation>
+    <operation name="ListarStock">
+      <input wsam:Action="http://ws/Listar/ListarStockRequest" message="tns:ListarStock" />
+      <output wsam:Action="http://ws/Listar/ListarStockResponse" message="tns:ListarStockResponse" />
+    </operation>
+    <operation name="StockMayor">
+      <input wsam:Action="http://ws/Listar/StockMayorRequest" message="tns:StockMayor" />
+      <output wsam:Action="http://ws/Listar/StockMayorResponse" message="tns:StockMayorResponse" />
+    </operation>
+    <operation name="ListarPrestamo">
+      <input wsam:Action="http://ws/Listar/ListarPrestamoRequest" message="tns:ListarPrestamo" />
+      <output wsam:Action="http://ws/Listar/ListarPrestamoResponse" message="tns:ListarPrestamoResponse" />
+    </operation>
+    <operation name="listarEstante">
+      <input wsam:Action="http://ws/Listar/listarEstanteRequest" message="tns:listarEstante" />
+      <output wsam:Action="http://ws/Listar/listarEstanteResponse" message="tns:listarEstanteResponse" />
+    </operation>
+    <operation name="listarLibro">
+      <input wsam:Action="http://ws/Listar/listarLibroRequest" message="tns:listarLibro" />
+      <output wsam:Action="http://ws/Listar/listarLibroResponse" message="tns:listarLibroResponse" />
+    </operation>
+    <operation name="listarFicha">
+      <input wsam:Action="http://ws/Listar/listarFichaRequest" message="tns:listarFicha" />
+      <output wsam:Action="http://ws/Listar/listarFichaResponse" message="tns:listarFichaResponse" />
+    </operation>
+    <operation name="listarUsuario">
+      <input wsam:Action="http://ws/Listar/listarUsuarioRequest" message="tns:listarUsuario" />
+      <output wsam:Action="http://ws/Listar/listarUsuarioResponse" message="tns:listarUsuarioResponse" />
+    </operation>
+    <operation name="listarFichaPorId">
+      <input wsam:Action="http://ws/Listar/listarFichaPorIdRequest" message="tns:listarFichaPorId" />
+      <output wsam:Action="http://ws/Listar/listarFichaPorIdResponse" message="tns:listarFichaPorIdResponse" />
+    </operation>
+    <operation name="listarRol">
+      <input wsam:Action="http://ws/Listar/listarRolRequest" message="tns:listarRol" />
+      <output wsam:Action="http://ws/Listar/listarRolResponse" message="tns:listarRolResponse" />
+    </operation>
+    <operation name="ListarLibroPorNombre">
+      <input wsam:Action="http://ws/Listar/ListarLibroPorNombreRequest" message="tns:ListarLibroPorNombre" />
+      <output wsam:Action="http://ws/Listar/ListarLibroPorNombreResponse" message="tns:ListarLibroPorNombreResponse" />
+    </operation>
+    <operation name="ListarPrestamoPorIdMultimedia">
+      <input wsam:Action="http://ws/Listar/ListarPrestamoPorIdMultimediaRequest" message="tns:ListarPrestamoPorIdMultimedia" />
+      <output wsam:Action="http://ws/Listar/ListarPrestamoPorIdMultimediaResponse" message="tns:ListarPrestamoPorIdMultimediaResponse" />
+    </operation>
+    <operation name="PrestamoPendiente">
+      <input wsam:Action="http://ws/Listar/PrestamoPendienteRequest" message="tns:PrestamoPendiente" />
+      <output wsam:Action="http://ws/Listar/PrestamoPendienteResponse" message="tns:PrestamoPendienteResponse" />
+    </operation>
+    <operation name="ListarPrestamoPorIdLibro">
+      <input wsam:Action="http://ws/Listar/ListarPrestamoPorIdLibroRequest" message="tns:ListarPrestamoPorIdLibro" />
+      <output wsam:Action="http://ws/Listar/ListarPrestamoPorIdLibroResponse" message="tns:ListarPrestamoPorIdLibroResponse" />
+    </operation>
+    <operation name="listarLibroByCodigo">
+      <input wsam:Action="http://ws/Listar/listarLibroByCodigoRequest" message="tns:listarLibroByCodigo" />
+      <output wsam:Action="http://ws/Listar/listarLibroByCodigoResponse" message="tns:listarLibroByCodigoResponse" />
+    </operation>
+    <operation name="listarMultimediaByCodigo">
+      <input wsam:Action="http://ws/Listar/listarMultimediaByCodigoRequest" message="tns:listarMultimediaByCodigo" />
+      <output wsam:Action="http://ws/Listar/listarMultimediaByCodigoResponse" message="tns:listarMultimediaByCodigoResponse" />
+    </operation>
+    <operation name="ListarMultimediaPorId">
+      <input wsam:Action="http://ws/Listar/ListarMultimediaPorIdRequest" message="tns:ListarMultimediaPorId" />
+      <output wsam:Action="http://ws/Listar/ListarMultimediaPorIdResponse" message="tns:ListarMultimediaPorIdResponse" />
+    </operation>
+    <operation name="listarUsuarioPorNombre">
+      <input wsam:Action="http://ws/Listar/listarUsuarioPorNombreRequest" message="tns:listarUsuarioPorNombre" />
+      <output wsam:Action="http://ws/Listar/listarUsuarioPorNombreResponse" message="tns:listarUsuarioPorNombreResponse" />
+    </operation>
+    <operation name="ListarMultimediaPorNombre">
+      <input wsam:Action="http://ws/Listar/ListarMultimediaPorNombreRequest" message="tns:ListarMultimediaPorNombre" />
+      <output wsam:Action="http://ws/Listar/ListarMultimediaPorNombreResponse" message="tns:ListarMultimediaPorNombreResponse" />
+    </operation>
+    <operation name="ListarPrestamoPorId">
+      <input wsam:Action="http://ws/Listar/ListarPrestamoPorIdRequest" message="tns:ListarPrestamoPorId" />
+      <output wsam:Action="http://ws/Listar/ListarPrestamoPorIdResponse" message="tns:ListarPrestamoPorIdResponse" />
+    </operation>
+    <operation name="listarUsuarioPorId">
+      <input wsam:Action="http://ws/Listar/listarUsuarioPorIdRequest" message="tns:listarUsuarioPorId" />
+      <output wsam:Action="http://ws/Listar/listarUsuarioPorIdResponse" message="tns:listarUsuarioPorIdResponse" />
+    </operation>
+  </portType>
+  <binding name="ListarPortBinding" type="tns:Listar">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="PrestamoMayor">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarStockPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarLibroPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarMultimedia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Prestados">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarStock">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="StockMayor">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarPrestamo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarEstante">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarLibro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarFicha">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarFichaPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarRol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarLibroPorNombre">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarPrestamoPorIdMultimedia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="PrestamoPendiente">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarPrestamoPorIdLibro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarLibroByCodigo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarMultimediaByCodigo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarMultimediaPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarUsuarioPorNombre">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarMultimediaPorNombre">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ListarPrestamoPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarUsuarioPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Listar">
+    <port name="ListarPort" binding="tns:ListarPortBinding">
+      <soap:address location="http://localhost:8080/bec_biblioteca/Listar" />
+    </port>
+  </service>
+</definitions>

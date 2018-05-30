@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Usuario" table="usuario" catalog="bd_bec" optimistic-lock="version">
+        <id name="idUsuario" type="java.lang.Integer">
+            <column name="idUsuario" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="ficha" class="cl.biblioteca.edm.Ficha" fetch="select">
+            <column name="idFicha" />
+        </many-to-one>
+        <many-to-one name="rol" class="cl.biblioteca.edm.Rol" fetch="select">
+            <column name="idRol" />
+        </many-to-one>
+        <property name="nombreUsuario" type="string">
+            <column name="nombreUsuario" length="100" not-null="true" />
+        </property>
+        <property name="clave" type="string">
+            <column name="clave" length="50" not-null="true" />
+        </property>
+        
+    </class>
+</hibernate-mapping>

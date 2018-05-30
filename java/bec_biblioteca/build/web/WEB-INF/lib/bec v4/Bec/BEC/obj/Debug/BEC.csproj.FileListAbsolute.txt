@@ -1,0 +1,101 @@
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\ApplicationInsights.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\csc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\vbc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.pdb
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Acer\Desktop\Bec\BEC\bin\ApplicationInsights.config
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\csc.exe
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\vbc.exe
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Acer\Desktop\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Acer\Desktop\Bec\BEC\bin\BEC.dll.config
+C:\Users\Acer\Desktop\Bec\BEC\bin\BEC.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\BEC.pdb
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Acer\Desktop\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Acer\Desktop\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\Bec\BEC\obj\Debug\BEC.dll
+C:\Users\Acer\Desktop\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\ApplicationInsights.config
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\csc.exe
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\vbc.exe
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\BEC.dll.config
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\BEC.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\BEC.pdb
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\obj\Debug\BEC.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\WcfService.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\BEC\bin\WcfService.pdb

@@ -1,0 +1,68 @@
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\ApplicationInsights.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\csc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\vbc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.pdb
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\ApplicationInsights.config
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\csc.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\vbc.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.dll.config
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.dll
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Web.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Portafolio\fabian\Bec\BEC\bin\WFC_Service_Bec.dll
+G:\Portafolio\fabian\Bec\BEC\bin\WFC_Service_Bec.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Web.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.dll
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.pdb

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws/" targetNamespace="http://ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="listarFicha" type="tns:listarFicha" />
+  <xs:element name="listarFichaResponse" type="tns:listarFichaResponse" />
+  <xs:complexType name="listarFicha">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarFichaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:ficha" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ficha">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="correo" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="fotografia" type="xs:base64Binary" />
+      <xs:element name="huella" type="xs:int" />
+      <xs:element minOccurs="0" name="idFicha" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+      <xs:element minOccurs="0" name="rut" type="xs:string" />
+      <xs:element minOccurs="0" name="telefono" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="usuarios" nillable="true" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="clave" type="xs:string" />
+      <xs:element minOccurs="0" name="ficha" type="tns:ficha" />
+      <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="nombreUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="prestamos" nillable="true" type="tns:prestamo" />
+      <xs:element minOccurs="0" name="rol" type="tns:rol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prestamo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaDevolucion" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="fechaPrestamo" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="idPrestamo" type="xs:int" />
+      <xs:element minOccurs="0" name="libro" type="tns:libro" />
+      <xs:element minOccurs="0" name="multa" type="tns:multa" />
+      <xs:element minOccurs="0" name="multimedia" type="tns:multimedia" />
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+      <xs:element minOccurs="0" name="usuario" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="libro">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="autor" type="xs:string" />
+      <xs:element minOccurs="0" name="codigo" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="genero" type="xs:string" />
+      <xs:element minOccurs="0" name="idLibro" type="xs:int" />
+      <xs:element minOccurs="0" name="isbn" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="popularidad" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="prestamos" nillable="true" type="tns:prestamo" />
+      <xs:element minOccurs="0" name="stock" type="tns:stock" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stock">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:int" />
+      <xs:element minOccurs="0" name="estante" type="tns:estante" />
+      <xs:element minOccurs="0" name="idStock" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="libros" nillable="true" type="tns:libro" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="multimedias" nillable="true" type="tns:multimedia" />
+      <xs:element name="prestado" type="xs:int" />
+      <xs:element name="total" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="estante">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="idEstante" type="xs:int" />
+      <xs:element minOccurs="0" name="piso" type="xs:string" />
+      <xs:element minOccurs="0" name="seccion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="stocks" nillable="true" type="tns:stock" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multimedia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="autor" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="idMultimedia" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="prestamos" nillable="true" type="tns:prestamo" />
+      <xs:element minOccurs="0" name="stock" type="tns:stock" />
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="idMulta" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="prestamos" nillable="true" type="tns:prestamo" />
+      <xs:element name="tiempo" type="xs:int" />
+      <xs:element name="total" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+      <xs:element minOccurs="0" name="idRol" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB875AFB-F3A6-478F-B79F-E354E48F3E17}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BEC</RootNamespace>
+    <AssemblyName>BEC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActualizarClave.aspx" />
+    <Content Include="actualizarUsuario.aspx" />
+    <Content Include="assets\img\Multa.png" />
+    <Content Include="assets\img\caraError.jpg" />
+    <Content Include="catalogoEstudiantes.aspx" />
+    <Content Include="comprobante.aspx" />
+    <Content Include="css\button-loader.css" />
+    <Content Include="css\buttons.css" />
+    <Content Include="css\content.css" />
+    <Content Include="css\icons.css" />
+    <Content Include="css\text.css" />
+    <Content Include="eliminarUsuario.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="homeAdministrativo.aspx" />
+    <Content Include="informacionUsuario.aspx" />
+    <Content Include="js\polyfills.js" />
+    <Content Include="js\sweetalert.css" />
+    <Content Include="js\sweetalert.js" />
+    <Content Include="reservaOnline.aspx" />
+    <Content Include="multa.aspx" />
+    <Content Include="multimedia.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\AlegreyaSansSC-Regular.eot" />
+    <Content Include="fonts\AlegreyaSansSC-Regular.ttf" />
+    <Content Include="fonts\AlegreyaSansSC-Regular.woff" />
+    <Content Include="fonts\AlegreyaSansSC-Regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="fonts\OpenSans-CondLight.eot" />
+    <Content Include="fonts\OpenSans-CondLight.ttf" />
+    <Content Include="fonts\OpenSans-CondLight.woff" />
+    <Content Include="fonts\OpenSans-CondLight.woff2" />
+    <Content Include="prestamoOnline.aspx" />
+    <Content Include="prestamoUsuario.aspx" />
+    <Content Include="Salir.aspx" />
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.ActualizarFichaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarPrestamoLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarPrestamoMultimediaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarRolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarPrestamoLibroSinMoraResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.actualizarPrestamoMultimediaSinMoraResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Actualizar_Bec\BEC.WS_Actualizar_Bec.ActualizarStockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WS_Actualizar_Bec\configuration91.svcinfo" />
+    <None Include="Service References\WS_Actualizar_Bec\configuration.svcinfo" />
+    <None Include="Service References\WS_Actualizar_Bec\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertaPrestamoMultimediaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertaPrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.InsertarEstanteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarFichaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.InsertarLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.InsertarMultimediaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarRolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.InsertarStockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarUsuario2Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarUsuario3Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Agregar_Bec\BEC.WS_Agregar_Bec.insertarMultaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WS_Actualizar_Bec\Actualizar.wsdl" />
+    <None Include="Service References\WS_Actualizar_Bec\Actualizar.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WS_Agregar_Bec\configuration91.svcinfo" />
+    <None Include="Service References\WS_Agregar_Bec\configuration.svcinfo" />
+    <None Include="Service References\WS_Agregar_Bec\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\WS_Eliminar_Bec\BEC.WS_Eliminar_Bec.devolverResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Eliminar_Bec\BEC.WS_Eliminar_Bec.eliminarFichaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Eliminar_Bec\BEC.WS_Eliminar_Bec.eliminarRolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Eliminar_Bec\BEC.WS_Eliminar_Bec.eliminarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WS_Agregar_Bec\Agregar.wsdl" />
+    <None Include="Service References\WS_Agregar_Bec\Agregar.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WS_Eliminar_Bec\configuration91.svcinfo" />
+    <None Include="Service References\WS_Eliminar_Bec\configuration.svcinfo" />
+    <None Include="Service References\WS_Eliminar_Bec\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WS_Eliminar_Bec\Eliminar.wsdl" />
+    <None Include="Service References\WS_Eliminar_Bec\Eliminar.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ficha.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.libro.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarFichaPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarFichaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarLibroPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarMultimediaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarPrestamoPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarPrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarRolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarUsuarioPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.multimedia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.prestamo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.rol.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarLibroByCodigoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarMultimediaByCodigoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarMultimediaPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarPrestamoPorIdLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarPrestamoPorIdMultimediaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.PrestamoMayorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.PrestamoPendienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarLibroPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarStockPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.stock.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarMultimediaPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.ListarStockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.StockMayorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.PrestadosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.estante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarEstanteResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Listar_Bec\BEC.WS_Listar_Bec.listarUsuarioPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WS_Listar_Bec\configuration91.svcinfo" />
+    <None Include="Service References\WS_Listar_Bec\configuration.svcinfo" />
+    <None Include="Service References\WS_Listar_Bec\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\WS_Login_Bec\BEC.WS_Login_Bec.iniciarSesionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Login_Bec\BEC.WS_Login_Bec.LogearResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Login_Bec\BEC.WS_Login_Bec.ValidarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WS_Login_Bec\BEC.WS_Login_Bec.ValidarIntResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WS_Listar_Bec\Listar.wsdl" />
+    <None Include="Service References\WS_Listar_Bec\Listar.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WS_Login_Bec\configuration91.svcinfo" />
+    <None Include="Service References\WS_Login_Bec\configuration.svcinfo" />
+    <None Include="Service References\WS_Login_Bec\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Registro.aspx" />
+    <Content Include="verUsuario.aspx" />
+    <Content Include="WS\WS_Libro.asmx" />
+    <None Include="Service References\WS_Login_Bec\Login.wsdl" />
+    <None Include="Service References\WS_Login_Bec\Login.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="advancesettings.aspx" />
+    <Content Include="assets\icons\book.ico" />
+    <Content Include="assets\icons\mCSB_buttons.png" />
+    <Content Include="assets\icons\SelectMaterialIndicator-white.png" />
+    <Content Include="assets\icons\SelectMaterialIndicator.png" />
+    <Content Include="assets\img\book.png" />
+    <Content Include="assets\img\calendar.png" />
+    <Content Include="assets\img\calendar_book.png" />
+    <Content Include="assets\img\category.png" />
+    <Content Include="assets\img\chart.png" />
+    <Content Include="assets\img\checklist.png" />
+    <Content Include="assets\img\clock.png" />
+    <Content Include="assets\img\flat-book.png" />
+    <Content Include="assets\img\font-login.jpg" />
+    <Content Include="assets\img\institution.png" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\pdf.png" />
+    <Content Include="assets\img\section.png" />
+    <Content Include="assets\img\user-sesion.png" />
+    <Content Include="assets\img\user.png" />
+    <Content Include="assets\img\user01.png" />
+    <Content Include="assets\img\user02.png" />
+    <Content Include="assets\img\user03.png" />
+    <Content Include="assets\img\user04.png" />
+    <Content Include="assets\img\user05.png" />
+    <Content Include="book.aspx" />
+    <Content Include="category.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\jquery.mCustomScrollbar.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\material-design-iconic-font.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\sweet-alert.css" />
+    <Content Include="css\timeline.css" />
+    <Content Include="fonts\AlegreyaSansSC-Regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="fonts\OpenSans-CondLight.svg" />
+    <Content Include="home.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="institution.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.11.2.min.js" />
+    <Content Include="js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\sweet-alert.min.js" />
+    <Content Include="listadmin.aspx" />
+    <Content Include="listcategory.aspx" />
+    <Content Include="listpersonal.aspx" />
+    <Content Include="listprovider.aspx" />
+    <Content Include="listsection.aspx" />
+    <Content Include="liststudent.aspx" />
+    <Content Include="listteacher.aspx" />
+    <Content Include="loan.aspx" />
+    <Content Include="loanpending.aspx" />
+    <Content Include="loanreservation.aspx" />
+    <Content Include="personal.aspx" />
+    <Content Include="prestamo.aspx" />
+    <Content Include="provider.aspx" />
+    <Content Include="report.aspx" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="catalog.aspx" />
+    <Content Include="searchbook.aspx" />
+    <Content Include="section.aspx" />
+    <Content Include="student.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualizarClave.aspx.cs">
+      <DependentUpon>ActualizarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActualizarClave.aspx.designer.cs">
+      <DependentUpon>ActualizarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="actualizarUsuario.aspx.cs">
+      <DependentUpon>actualizarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="actualizarUsuario.aspx.designer.cs">
+      <DependentUpon>actualizarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advancesettings.aspx.cs">
+      <DependentUpon>advancesettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="advancesettings.aspx.designer.cs">
+      <DependentUpon>advancesettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book.aspx.cs">
+      <DependentUpon>book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="book.aspx.designer.cs">
+      <DependentUpon>book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="catalogoEstudiantes.aspx.cs">
+      <DependentUpon>catalogoEstudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="catalogoEstudiantes.aspx.designer.cs">
+      <DependentUpon>catalogoEstudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="category.aspx.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="category.aspx.designer.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="comprobante.aspx.cs">
+      <DependentUpon>comprobante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="comprobante.aspx.designer.cs">
+      <DependentUpon>comprobante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eliminarUsuario.aspx.cs">
+      <DependentUpon>eliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eliminarUsuario.aspx.designer.cs">
+      <DependentUpon>eliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeAdministrativo.aspx.cs">
+      <DependentUpon>homeAdministrativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeAdministrativo.aspx.designer.cs">
+      <DependentUpon>homeAdministrativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="informacionUsuario.aspx.cs">
+      <DependentUpon>informacionUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="informacionUsuario.aspx.designer.cs">
+      <DependentUpon>informacionUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="institution.aspx.cs">
+      <DependentUpon>institution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="institution.aspx.designer.cs">
+      <DependentUpon>institution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listadmin.aspx.cs">
+      <DependentUpon>listadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listadmin.aspx.designer.cs">
+      <DependentUpon>listadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listcategory.aspx.cs">
+      <DependentUpon>listcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listcategory.aspx.designer.cs">
+      <DependentUpon>listcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listpersonal.aspx.cs">
+      <DependentUpon>listpersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listpersonal.aspx.designer.cs">
+      <DependentUpon>listpersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listprovider.aspx.cs">
+      <DependentUpon>listprovider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listprovider.aspx.designer.cs">
+      <DependentUpon>listprovider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listsection.aspx.cs">
+      <DependentUpon>listsection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listsection.aspx.designer.cs">
+      <DependentUpon>listsection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="liststudent.aspx.cs">
+      <DependentUpon>liststudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="liststudent.aspx.designer.cs">
+      <DependentUpon>liststudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listteacher.aspx.cs">
+      <DependentUpon>listteacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listteacher.aspx.designer.cs">
+      <DependentUpon>listteacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loan.aspx.cs">
+      <DependentUpon>loan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loan.aspx.designer.cs">
+      <DependentUpon>loan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loanpending.aspx.cs">
+      <DependentUpon>loanpending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loanpending.aspx.designer.cs">
+      <DependentUpon>loanpending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reservaOnline.aspx.cs">
+      <DependentUpon>reservaOnline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reservaOnline.aspx.designer.cs">
+      <DependentUpon>reservaOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loanreservation.aspx.cs">
+      <DependentUpon>loanreservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loanreservation.aspx.designer.cs">
+      <DependentUpon>loanreservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multa.aspx.cs">
+      <DependentUpon>multa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="multa.aspx.designer.cs">
+      <DependentUpon>multa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multimedia.aspx.cs">
+      <DependentUpon>multimedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="multimedia.aspx.designer.cs">
+      <DependentUpon>multimedia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personal.aspx.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personal.aspx.designer.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestamoOnline.aspx.cs">
+      <DependentUpon>prestamoOnline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestamoOnline.aspx.designer.cs">
+      <DependentUpon>prestamoOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestamo.aspx.cs">
+      <DependentUpon>prestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestamo.aspx.designer.cs">
+      <DependentUpon>prestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestamoUsuario.aspx.cs">
+      <DependentUpon>prestamoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestamoUsuario.aspx.designer.cs">
+      <DependentUpon>prestamoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="catalog.aspx.cs">
+      <DependentUpon>catalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="catalog.aspx.designer.cs">
+      <DependentUpon>catalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="provider.aspx.cs">
+      <DependentUpon>provider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="provider.aspx.designer.cs">
+      <DependentUpon>provider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Salir.aspx.cs">
+      <DependentUpon>Salir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Salir.aspx.designer.cs">
+      <DependentUpon>Salir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchbook.aspx.cs">
+      <DependentUpon>searchbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchbook.aspx.designer.cs">
+      <DependentUpon>searchbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="section.aspx.cs">
+      <DependentUpon>section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="section.aspx.designer.cs">
+      <DependentUpon>section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WS_Actualizar_Bec\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WS_Agregar_Bec\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WS_Eliminar_Bec\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WS_Listar_Bec\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WS_Login_Bec\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student.aspx.cs">
+      <DependentUpon>student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student.aspx.designer.cs">
+      <DependentUpon>student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verUsuario.aspx.cs">
+      <DependentUpon>verUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="verUsuario.aspx.designer.cs">
+      <DependentUpon>verUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\WS_Libro.asmx.cs">
+      <DependentUpon>WS_Libro.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WS_Actualizar_Bec\" />
+    <WCFMetadataStorage Include="Service References\WS_Agregar_Bec\" />
+    <WCFMetadataStorage Include="Service References\WS_Eliminar_Bec\" />
+    <WCFMetadataStorage Include="Service References\WS_Listar_Bec\" />
+    <WCFMetadataStorage Include="Service References\WS_Login_Bec\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BEC_EMAIL\BEC_EMAIL.csproj">
+      <Project>{2bbe046e-b736-489b-800b-0b04ad3a6b65}</Project>
+      <Name>BEC_EMAIL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\icons\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49231</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49231/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

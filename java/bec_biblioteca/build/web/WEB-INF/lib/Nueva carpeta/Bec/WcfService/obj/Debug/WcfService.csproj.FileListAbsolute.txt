@@ -1,0 +1,38 @@
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\ApplicationInsights.config
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\WcfService.dll.config
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\WcfService.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\WcfService.pdb
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.Web.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.Web.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\obj\Debug\WcfService.dll
+C:\Users\Acer\Desktop\Duoc\6 semestre\Portafolio\Aplicación V3\Bec\WcfService\obj\Debug\WcfService.pdb
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\ApplicationInsights.config
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\WcfService.dll.config
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\WcfService.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\WcfService.pdb
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.DependencyCollector.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.Web.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.WindowsServer.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.ApplicationInsights.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.DependencyCollector.xml
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.Web.xml
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.AI.WindowsServer.xml
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\bin\Microsoft.ApplicationInsights.xml
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\obj\Debug\WcfService.dll
+G:\Portafolio\fabian\Nueva carpeta\Bec\WcfService\obj\Debug\WcfService.pdb

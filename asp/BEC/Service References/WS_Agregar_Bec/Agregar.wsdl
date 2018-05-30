@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Agregar" targetNamespace="http://ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/bec_biblioteca/Agregar?xsd=1" namespace="http://ws/" />
+    </xsd:schema>
+  </types>
+  <message name="InsertarMultimedia">
+    <part name="parameters" element="tns:InsertarMultimedia" />
+  </message>
+  <message name="InsertarMultimediaResponse">
+    <part name="parameters" element="tns:InsertarMultimediaResponse" />
+  </message>
+  <message name="insertaPrestamoMultimedia">
+    <part name="parameters" element="tns:insertaPrestamoMultimedia" />
+  </message>
+  <message name="insertaPrestamoMultimediaResponse">
+    <part name="parameters" element="tns:insertaPrestamoMultimediaResponse" />
+  </message>
+  <message name="insertarUsuario2">
+    <part name="parameters" element="tns:insertarUsuario2" />
+  </message>
+  <message name="insertarUsuario2Response">
+    <part name="parameters" element="tns:insertarUsuario2Response" />
+  </message>
+  <message name="InsertarStock">
+    <part name="parameters" element="tns:InsertarStock" />
+  </message>
+  <message name="InsertarStockResponse">
+    <part name="parameters" element="tns:InsertarStockResponse" />
+  </message>
+  <message name="insertarUsuario3">
+    <part name="parameters" element="tns:insertarUsuario3" />
+  </message>
+  <message name="insertarUsuario3Response">
+    <part name="parameters" element="tns:insertarUsuario3Response" />
+  </message>
+  <message name="insertarRol">
+    <part name="parameters" element="tns:insertarRol" />
+  </message>
+  <message name="insertarRolResponse">
+    <part name="parameters" element="tns:insertarRolResponse" />
+  </message>
+  <message name="insertarFicha">
+    <part name="parameters" element="tns:insertarFicha" />
+  </message>
+  <message name="insertarFichaResponse">
+    <part name="parameters" element="tns:insertarFichaResponse" />
+  </message>
+  <message name="InsertarEstante">
+    <part name="parameters" element="tns:InsertarEstante" />
+  </message>
+  <message name="InsertarEstanteResponse">
+    <part name="parameters" element="tns:InsertarEstanteResponse" />
+  </message>
+  <message name="InsertarLibro">
+    <part name="parameters" element="tns:InsertarLibro" />
+  </message>
+  <message name="InsertarLibroResponse">
+    <part name="parameters" element="tns:InsertarLibroResponse" />
+  </message>
+  <message name="insertarUsuario">
+    <part name="parameters" element="tns:insertarUsuario" />
+  </message>
+  <message name="insertarUsuarioResponse">
+    <part name="parameters" element="tns:insertarUsuarioResponse" />
+  </message>
+  <message name="insertaPrestamo">
+    <part name="parameters" element="tns:insertaPrestamo" />
+  </message>
+  <message name="insertaPrestamoResponse">
+    <part name="parameters" element="tns:insertaPrestamoResponse" />
+  </message>
+  <message name="insertarMulta">
+    <part name="parameters" element="tns:insertarMulta" />
+  </message>
+  <message name="insertarMultaResponse">
+    <part name="parameters" element="tns:insertarMultaResponse" />
+  </message>
+  <portType name="Agregar">
+    <operation name="InsertarMultimedia">
+      <input wsam:Action="http://ws/Agregar/InsertarMultimediaRequest" message="tns:InsertarMultimedia" />
+      <output wsam:Action="http://ws/Agregar/InsertarMultimediaResponse" message="tns:InsertarMultimediaResponse" />
+    </operation>
+    <operation name="insertaPrestamoMultimedia">
+      <input wsam:Action="http://ws/Agregar/insertaPrestamoMultimediaRequest" message="tns:insertaPrestamoMultimedia" />
+      <output wsam:Action="http://ws/Agregar/insertaPrestamoMultimediaResponse" message="tns:insertaPrestamoMultimediaResponse" />
+    </operation>
+    <operation name="insertarUsuario2">
+      <input wsam:Action="http://ws/Agregar/insertarUsuario2Request" message="tns:insertarUsuario2" />
+      <output wsam:Action="http://ws/Agregar/insertarUsuario2Response" message="tns:insertarUsuario2Response" />
+    </operation>
+    <operation name="InsertarStock">
+      <input wsam:Action="http://ws/Agregar/InsertarStockRequest" message="tns:InsertarStock" />
+      <output wsam:Action="http://ws/Agregar/InsertarStockResponse" message="tns:InsertarStockResponse" />
+    </operation>
+    <operation name="insertarUsuario3">
+      <input wsam:Action="http://ws/Agregar/insertarUsuario3Request" message="tns:insertarUsuario3" />
+      <output wsam:Action="http://ws/Agregar/insertarUsuario3Response" message="tns:insertarUsuario3Response" />
+    </operation>
+    <operation name="insertarRol">
+      <input wsam:Action="http://ws/Agregar/insertarRolRequest" message="tns:insertarRol" />
+      <output wsam:Action="http://ws/Agregar/insertarRolResponse" message="tns:insertarRolResponse" />
+    </operation>
+    <operation name="insertarFicha">
+      <input wsam:Action="http://ws/Agregar/insertarFichaRequest" message="tns:insertarFicha" />
+      <output wsam:Action="http://ws/Agregar/insertarFichaResponse" message="tns:insertarFichaResponse" />
+    </operation>
+    <operation name="InsertarEstante">
+      <input wsam:Action="http://ws/Agregar/InsertarEstanteRequest" message="tns:InsertarEstante" />
+      <output wsam:Action="http://ws/Agregar/InsertarEstanteResponse" message="tns:InsertarEstanteResponse" />
+    </operation>
+    <operation name="InsertarLibro">
+      <input wsam:Action="http://ws/Agregar/InsertarLibroRequest" message="tns:InsertarLibro" />
+      <output wsam:Action="http://ws/Agregar/InsertarLibroResponse" message="tns:InsertarLibroResponse" />
+    </operation>
+    <operation name="insertarUsuario">
+      <input wsam:Action="http://ws/Agregar/insertarUsuarioRequest" message="tns:insertarUsuario" />
+      <output wsam:Action="http://ws/Agregar/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
+    </operation>
+    <operation name="insertaPrestamo">
+      <input wsam:Action="http://ws/Agregar/insertaPrestamoRequest" message="tns:insertaPrestamo" />
+      <output wsam:Action="http://ws/Agregar/insertaPrestamoResponse" message="tns:insertaPrestamoResponse" />
+    </operation>
+    <operation name="insertarMulta">
+      <input wsam:Action="http://ws/Agregar/insertarMultaRequest" message="tns:insertarMulta" />
+      <output wsam:Action="http://ws/Agregar/insertarMultaResponse" message="tns:insertarMultaResponse" />
+    </operation>
+  </portType>
+  <binding name="AgregarPortBinding" type="tns:Agregar">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="InsertarMultimedia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertaPrestamoMultimedia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarUsuario2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InsertarStock">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarUsuario3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarRol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarFicha">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InsertarEstante">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InsertarLibro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertaPrestamo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarMulta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Agregar">
+    <port name="AgregarPort" binding="tns:AgregarPortBinding">
+      <soap:address location="http://localhost:8080/bec_biblioteca/Agregar" />
+    </port>
+  </service>
+</definitions>

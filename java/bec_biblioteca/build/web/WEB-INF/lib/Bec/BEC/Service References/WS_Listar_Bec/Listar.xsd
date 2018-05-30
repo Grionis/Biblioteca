@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws/" targetNamespace="http://ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="listarFicha" type="tns:listarFicha" />
+  <xs:element name="listarFichaResponse" type="tns:listarFichaResponse" />
+  <xs:element name="listarRol" type="tns:listarRol" />
+  <xs:element name="listarRolResponse" type="tns:listarRolResponse" />
+  <xs:element name="listarUsuario" type="tns:listarUsuario" />
+  <xs:element name="listarUsuarioResponse" type="tns:listarUsuarioResponse" />
+  <xs:complexType name="listarUsuario">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="clave" type="xs:string" />
+      <xs:element minOccurs="0" name="ficha" type="tns:ficha" />
+      <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="nombreUsuario" type="xs:string" />
+      <xs:element minOccurs="0" name="rol" type="tns:rol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ficha">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="correo" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="fotografia" type="xs:base64Binary" />
+      <xs:element name="huella" type="xs:int" />
+      <xs:element minOccurs="0" name="idFicha" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+      <xs:element minOccurs="0" name="rut" type="xs:string" />
+      <xs:element minOccurs="0" name="telefono" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+      <xs:element minOccurs="0" name="idRol" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarRol">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarRolResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:rol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarFicha">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarFichaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:ficha" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

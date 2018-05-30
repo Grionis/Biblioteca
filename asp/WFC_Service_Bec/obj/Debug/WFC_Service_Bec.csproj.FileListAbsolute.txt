@@ -1,0 +1,116 @@
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\ApplicationInsights.config
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+C:\Users\Test\documents\visual studio 2015\Projects\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\ApplicationInsights.config
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+G:\Portafolio\fabian\Bec\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll.config
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\v21\asp\WFC_Service_Bec\obj\Debug\WFC_Service_Bec.pdb

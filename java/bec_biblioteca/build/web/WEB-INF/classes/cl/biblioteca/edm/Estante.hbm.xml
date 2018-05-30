@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Estante" table="estante" catalog="bd_bec" optimistic-lock="version">
+        <id name="idEstante" type="java.lang.Integer">
+            <column name="idEstante" />
+            <generator class="identity" />
+        </id>
+        <property name="piso" type="string">
+            <column name="piso" length="20" not-null="true" />
+        </property>
+        <property name="seccion" type="string">
+            <column name="seccion" length="25" not-null="true" />
+        </property>
+       
+    </class>
+</hibernate-mapping>

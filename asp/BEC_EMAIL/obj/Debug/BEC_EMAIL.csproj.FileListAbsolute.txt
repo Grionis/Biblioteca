@@ -1,0 +1,20 @@
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\v21\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\a editar\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\a editar\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\a editar\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC_EMAIL\bin\Debug\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC_EMAIL\obj\Debug\BEC_EMAIL.pdb

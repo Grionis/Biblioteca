@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws/" targetNamespace="http://ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ListarLibroPorNombre" type="tns:ListarLibroPorNombre" />
+  <xs:element name="ListarLibroPorNombreResponse" type="tns:ListarLibroPorNombreResponse" />
+  <xs:element name="ListarMultimediaPorId" type="tns:ListarMultimediaPorId" />
+  <xs:element name="ListarMultimediaPorIdResponse" type="tns:ListarMultimediaPorIdResponse" />
+  <xs:element name="ListarMultimediaPorNombre" type="tns:ListarMultimediaPorNombre" />
+  <xs:element name="ListarMultimediaPorNombreResponse" type="tns:ListarMultimediaPorNombreResponse" />
+  <xs:element name="ListarPrestamo" type="tns:ListarPrestamo" />
+  <xs:element name="ListarPrestamoPorId" type="tns:ListarPrestamoPorId" />
+  <xs:element name="ListarPrestamoPorIdLibro" type="tns:ListarPrestamoPorIdLibro" />
+  <xs:element name="ListarPrestamoPorIdLibroResponse" type="tns:ListarPrestamoPorIdLibroResponse" />
+  <xs:element name="ListarPrestamoPorIdMultimedia" type="tns:ListarPrestamoPorIdMultimedia" />
+  <xs:element name="ListarPrestamoPorIdMultimediaResponse" type="tns:ListarPrestamoPorIdMultimediaResponse" />
+  <xs:element name="ListarPrestamoPorIdResponse" type="tns:ListarPrestamoPorIdResponse" />
+  <xs:element name="ListarPrestamoResponse" type="tns:ListarPrestamoResponse" />
+  <xs:element name="ListarStock" type="tns:ListarStock" />
+  <xs:element name="ListarStockResponse" type="tns:ListarStockResponse" />
+  <xs:element name="Prestados" type="tns:Prestados" />
+  <xs:element name="PrestadosResponse" type="tns:PrestadosResponse" />
+  <xs:element name="PrestamoMayor" type="tns:PrestamoMayor" />
+  <xs:element name="PrestamoMayorResponse" type="tns:PrestamoMayorResponse" />
+  <xs:element name="PrestamoPendiente" type="tns:PrestamoPendiente" />
+  <xs:element name="PrestamoPendienteResponse" type="tns:PrestamoPendienteResponse" />
+  <xs:element name="StockMayor" type="tns:StockMayor" />
+  <xs:element name="StockMayorResponse" type="tns:StockMayorResponse" />
+  <xs:element name="listarEstante" type="tns:listarEstante" />
+  <xs:element name="listarEstanteResponse" type="tns:listarEstanteResponse" />
+  <xs:element name="listarFicha" type="tns:listarFicha" />
+  <xs:element name="listarFichaPorId" type="tns:listarFichaPorId" />
+  <xs:element name="listarFichaPorIdResponse" type="tns:listarFichaPorIdResponse" />
+  <xs:element name="listarFichaResponse" type="tns:listarFichaResponse" />
+  <xs:element name="listarLibro" type="tns:listarLibro" />
+  <xs:element name="listarLibroByCodigo" type="tns:listarLibroByCodigo" />
+  <xs:element name="listarLibroByCodigoResponse" type="tns:listarLibroByCodigoResponse" />
+  <xs:element name="listarLibroPorId" type="tns:listarLibroPorId" />
+  <xs:element name="listarLibroPorIdResponse" type="tns:listarLibroPorIdResponse" />
+  <xs:element name="listarLibroResponse" type="tns:listarLibroResponse" />
+  <xs:element name="listarMultimedia" type="tns:listarMultimedia" />
+  <xs:element name="listarMultimediaByCodigo" type="tns:listarMultimediaByCodigo" />
+  <xs:element name="listarMultimediaByCodigoResponse" type="tns:listarMultimediaByCodigoResponse" />
+  <xs:element name="listarMultimediaResponse" type="tns:listarMultimediaResponse" />
+  <xs:element name="listarRol" type="tns:listarRol" />
+  <xs:element name="listarRolResponse" type="tns:listarRolResponse" />
+  <xs:element name="listarStockPorId" type="tns:listarStockPorId" />
+  <xs:element name="listarStockPorIdResponse" type="tns:listarStockPorIdResponse" />
+  <xs:element name="listarUsuario" type="tns:listarUsuario" />
+  <xs:element name="listarUsuarioPorId" type="tns:listarUsuarioPorId" />
+  <xs:element name="listarUsuarioPorIdResponse" type="tns:listarUsuarioPorIdResponse" />
+  <xs:element name="listarUsuarioPorNombre" type="tns:listarUsuarioPorNombre" />
+  <xs:element name="listarUsuarioPorNombreResponse" type="tns:listarUsuarioPorNombreResponse" />
+  <xs:element name="listarUsuarioResponse" type="tns:listarUsuarioResponse" />
+  <xs:complexType name="ListarPrestamoPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prestamo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaDevolucion" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaPrestamo" type="xs:string" />
+      <xs:element minOccurs="0" name="idLibro" type="xs:int" />
+      <xs:element minOccurs="0" name="idMulta" type="xs:int" />
+      <xs:element minOccurs="0" name="idMultimedia" type="xs:int" />
+      <xs:element minOccurs="0" name="idPrestamo" type="xs:int" />
+      <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarMultimedia">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarMultimediaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:multimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multimedia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="autor" type="xs:string" />
+      <xs:element minOccurs="0" name="codigo" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha" type="xs:string" />
+      <xs:element minOccurs="0" name="idMultimedia" type="xs:int" />
+      <xs:element name="idstock" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StockMayor">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StockMayorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarLibroPorNombre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarLibroPorNombreResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:libro" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="libro">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="autor" type="xs:string" />
+      <xs:element minOccurs="0" name="codigo" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha" type="xs:string" />
+      <xs:element minOccurs="0" name="genero" type="xs:string" />
+      <xs:element minOccurs="0" name="idLibro" type="xs:int" />
+      <xs:element name="idstock" type="xs:int" />
+      <xs:element minOccurs="0" name="isbn" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="popularidad" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activo" type="xs:int" />
+      <xs:element minOccurs="0" name="clave" type="xs:string" />
+      <xs:element minOccurs="0" name="idFicha" type="xs:int" />
+      <xs:element minOccurs="0" name="idRol" type="xs:int" />
+      <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="nombreUsuario" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarFichaPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarFichaPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:ficha" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ficha">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="correo" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element name="huella" type="xs:int" />
+      <xs:element minOccurs="0" name="idFicha" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+      <xs:element minOccurs="0" name="rut" type="xs:string" />
+      <xs:element minOccurs="0" name="telefono" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamo">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoPorIdMultimedia">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoPorIdMultimediaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarLibroByCodigo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarLibroByCodigoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarLibroPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarLibroPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:libro" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarFicha">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarFichaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:ficha" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarStockPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarStockPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:stock" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stock">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:int" />
+      <xs:element minOccurs="0" name="idStock" type="xs:int" />
+      <xs:element name="idestante" type="xs:int" />
+      <xs:element name="prestado" type="xs:int" />
+      <xs:element name="total" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PrestamoMayor">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="PrestamoMayorResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarEstante">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarEstanteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:estante" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="estante">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="idEstante" type="xs:int" />
+      <xs:element name="idestante" type="xs:int" />
+      <xs:element minOccurs="0" name="piso" type="xs:string" />
+      <xs:element minOccurs="0" name="seccion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Prestados">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PrestadosResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarRol">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarRolResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:rol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+      <xs:element minOccurs="0" name="idRol" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarMultimediaPorNombre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarMultimediaPorNombreResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:multimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioPorNombre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioPorNombreResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarMultimediaByCodigo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarMultimediaByCodigoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarMultimediaPorId">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarMultimediaPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:multimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarStock">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ListarStockResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:stock" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuario">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarLibro">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarLibroResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:libro" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PrestamoPendiente">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="PrestamoPendienteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoPorIdLibro">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListarPrestamoPorIdLibroResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

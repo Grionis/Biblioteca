@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Stock" table="stock" catalog="bd_bec" optimistic-lock="version">
+        <id name="idStock" type="java.lang.Integer">
+            <column name="idStock" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="estante" class="cl.biblioteca.edm.Estante" fetch="select">
+            <column name="idEstante" not-null="true" />
+        </many-to-one>
+        <property name="activo" type="int">
+            <column name="activo" not-null="true" />
+        </property>
+        <property name="prestado" type="int">
+            <column name="prestado" not-null="true" />
+        </property>
+        <property name="total" type="int">
+            <column name="total" not-null="true" />
+        </property>
+        <set name="libros" table="libro" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idStock" not-null="true" />
+            </key>
+            <one-to-many class="cl.biblioteca.edm.Libro" />
+        </set>
+        <set name="multimedias" table="multimedia" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idStock" not-null="true" />
+            </key>
+            <one-to-many class="cl.biblioteca.edm.Multimedia" />
+        </set>
+    </class>
+</hibernate-mapping>

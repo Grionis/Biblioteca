@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Multimedia" table="multimedia" catalog="bd_bec" optimistic-lock="version">
+        <id name="idMultimedia" type="java.lang.Integer">
+            <column name="idMultimedia" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="stock" class="cl.biblioteca.edm.Stock" fetch="select">
+            <column name="idStock" not-null="true" />
+        </many-to-one>
+        <property name="tipo" type="string">
+            <column name="tipo" length="50" not-null="true" />
+        </property>
+        <property name="nombre" type="string">
+            <column name="nombre" length="200" not-null="true" />
+        </property>
+        <property name="autor" type="string">
+            <column name="autor" length="200" not-null="true" />
+        </property>
+        <property name="fecha" type="date">
+            <column name="fecha" length="10" not-null="true" />
+        </property>
+        <set name="prestamos" table="prestamo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idMultimedia" not-null="true" />
+            </key>
+            <one-to-many class="cl.biblioteca.edm.Prestamo" />
+        </set>
+    </class>
+</hibernate-mapping>

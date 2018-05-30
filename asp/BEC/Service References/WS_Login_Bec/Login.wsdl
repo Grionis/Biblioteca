@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Login" targetNamespace="http://ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/bec_biblioteca/Login?xsd=1" namespace="http://ws/" />
+    </xsd:schema>
+  </types>
+  <message name="Logear">
+    <part name="parameters" element="tns:Logear" />
+  </message>
+  <message name="LogearResponse">
+    <part name="parameters" element="tns:LogearResponse" />
+  </message>
+  <message name="ValidarInt">
+    <part name="parameters" element="tns:ValidarInt" />
+  </message>
+  <message name="ValidarIntResponse">
+    <part name="parameters" element="tns:ValidarIntResponse" />
+  </message>
+  <message name="Validar">
+    <part name="parameters" element="tns:Validar" />
+  </message>
+  <message name="ValidarResponse">
+    <part name="parameters" element="tns:ValidarResponse" />
+  </message>
+  <message name="Exception">
+    <part name="fault" element="tns:Exception" />
+  </message>
+  <message name="iniciarSesion">
+    <part name="parameters" element="tns:iniciarSesion" />
+  </message>
+  <message name="iniciarSesionResponse">
+    <part name="parameters" element="tns:iniciarSesionResponse" />
+  </message>
+  <portType name="Login">
+    <operation name="Logear">
+      <input wsam:Action="http://ws/Login/LogearRequest" message="tns:Logear" />
+      <output wsam:Action="http://ws/Login/LogearResponse" message="tns:LogearResponse" />
+    </operation>
+    <operation name="ValidarInt">
+      <input wsam:Action="http://ws/Login/ValidarIntRequest" message="tns:ValidarInt" />
+      <output wsam:Action="http://ws/Login/ValidarIntResponse" message="tns:ValidarIntResponse" />
+    </operation>
+    <operation name="Validar">
+      <input wsam:Action="http://ws/Login/ValidarRequest" message="tns:Validar" />
+      <output wsam:Action="http://ws/Login/ValidarResponse" message="tns:ValidarResponse" />
+      <fault wsam:Action="http://ws/Login/Validar/Fault/Exception" name="Exception" message="tns:Exception" />
+    </operation>
+    <operation name="iniciarSesion">
+      <input wsam:Action="http://ws/Login/iniciarSesionRequest" message="tns:iniciarSesion" />
+      <output wsam:Action="http://ws/Login/iniciarSesionResponse" message="tns:iniciarSesionResponse" />
+    </operation>
+  </portType>
+  <binding name="LoginPortBinding" type="tns:Login">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Logear">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ValidarInt">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Validar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+    <operation name="iniciarSesion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Login">
+    <port name="LoginPort" binding="tns:LoginPortBinding">
+      <soap:address location="http://localhost:8080/bec_biblioteca/Login" />
+    </port>
+  </service>
+</definitions>

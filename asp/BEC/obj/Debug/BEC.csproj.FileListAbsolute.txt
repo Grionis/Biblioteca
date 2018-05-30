@@ -1,0 +1,886 @@
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\ApplicationInsights.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\csc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\vbc.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll.config
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\BEC.pdb
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.Web.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.dll
+c:\users\test\documents\visual studio 2015\Projects\Bec\BEC\obj\Debug\BEC.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\ApplicationInsights.config
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\csc.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\vbc.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+G:\Portafolio\fabian\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.dll.config
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.dll
+G:\Portafolio\fabian\Bec\BEC\bin\BEC.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Web.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Portafolio\fabian\Bec\BEC\bin\WFC_Service_Bec.dll
+G:\Portafolio\fabian\Bec\BEC\bin\WFC_Service_Bec.pdb
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.Web.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+G:\Portafolio\fabian\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.dll
+G:\Portafolio\fabian\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\ApplicationInsights.config
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\csc.exe
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\vbc.exe
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.dll.config
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.pdb
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.dll
+C:\Users\Test\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta\Bec\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (2)\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\Nueva carpeta\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\a homologar\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Portafolio\V8\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Portafolio\v9\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\v1\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\v1\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\v1\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\v12\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V14\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\V15\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\V15\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\V15\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V15\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\v17\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\v17\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\v17\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\WFC_Service_Bec.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\WFC_Service_Bec.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\WFC_Service_Bec.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V18\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\Nueva carpeta (4)\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\v21\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\v21\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\v22\Nueva carpeta\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\asp v23\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\v23\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\v23\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\v23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\ApplicationInsights.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\csc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\BEC.dll.config
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\BEC.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\obj\Debug\BEC.csproj.CoreCompileInputs.cache
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\obj\Debug\BEC.dll
+C:\Users\MLAGOS\Desktop\Duoc\Portafolio\V23\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\a editar\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\a editar\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\a editar\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\BEC.dll.config
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\BEC.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\BEC.pdb
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreyka\Desktop\v28\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Dreyka\Desktop\v28\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Dreyka\Desktop\v28\asp\BEC\obj\Debug\BEC.pdb
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\ApplicationInsights.config
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\csc.exe
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\vbc.exe
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\BEC.dll.config
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\BEC.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\BEC.pdb
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\BEC_EMAIL.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.Web.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\BEC_EMAIL.pdb
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.Web.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\obj\Debug\BEC.csprojResolveAssemblyReference.cache
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\obj\Debug\BEC.dll
+C:\Users\Fabia\Desktop\VERSION FINAL\asp\BEC\obj\Debug\BEC.pdb

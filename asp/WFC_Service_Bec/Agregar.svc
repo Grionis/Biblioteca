@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WFC_Service_Bec.Agregar" CodeBehind="Agregar.svc.cs" %>

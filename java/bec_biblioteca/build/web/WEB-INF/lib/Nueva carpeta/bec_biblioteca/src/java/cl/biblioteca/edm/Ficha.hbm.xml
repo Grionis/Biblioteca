@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-oct-2017 22:26:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cl.biblioteca.edm.Ficha" table="ficha" catalog="bd_bec" optimistic-lock="version">
+        <id name="idFicha" type="java.lang.Integer">
+            <column name="idFicha" />
+            <generator class="identity" />
+        </id>
+        <property name="rut" type="string">
+            <column name="rut" length="50" not-null="true" />
+        </property>
+        <property name="nombres" type="string">
+            <column name="nombres" length="200" not-null="true" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="direccion" length="200" not-null="true" />
+        </property>
+        <property name="correo" type="string">
+            <column name="correo" length="200" not-null="true" />
+        </property>
+        <property name="telefono" type="string">
+            <column name="telefono" length="200" not-null="true" />
+        </property>
+        <property name="fotografia" type="binary">
+            <column name="fotografia" />
+        </property>
+        <property name="huella" type="int">
+            <column name="huella" not-null="true" />
+        </property>
+       
+    </class>
+</hibernate-mapping>
